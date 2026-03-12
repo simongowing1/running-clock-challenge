@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, Fragment } from 'react';
 
-function Solution() {
+export default function App() {
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
     const [isRunning, setIsRunning] = useState(false);
@@ -70,5 +70,3 @@ function Solution() {
         </Fragment>
     );
 }
-
-export default Solution;
